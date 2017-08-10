@@ -1,0 +1,32 @@
+#body {
+    background-image: linear-gradient(to bottom, #61C8E1, #61C8E1 30%, white 0%, white);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+
+#login-section
+{
+    margin-top: 7%;
+    background-color: white;
+    box-shadow: 3px 3px 3px  #888888;
+
+}
+
+#sign-in-button, #sign-out-button
+{
+    width: 100%;
+    border-radius: 0% !important;
+
+}
+
+#sign-in-button
+{
+    background-color: #5E97C3;
+    border-color: #5E97C3;
+}
+
+.form-control
+{
+    height: auto !important;
+}
