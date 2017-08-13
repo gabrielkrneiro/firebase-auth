@@ -1,25 +1,17 @@
 <html>
+
 <head>
     <link rel="stylesheet" href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/login.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <script
-            src="http://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/jquery-block-ui/jquery.blockUI.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
     <script type="text/javascript" src="assets/js/app/firebase.js"></script>
@@ -27,35 +19,37 @@
 
 
 </head>
+
 <body id="body">
     <div class="container-fluid">
-       <div class="row">
-           <div id="login-section" class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1">
-               <div class="container-fluid">
-                   <div  class="row">
-                       <div class="col-md-4 col-xs-8 col-md-offset-4 col-xs-offset-2">
-                           <img src="assets/img/user.png" alt="" class="img-circle img-thumbnail" id="loginIcon">
-                       </div>
-                       <div id="advise-success"  class="alert alert-success col-md-12 col-xs-12" style="display: none"></div>
-                       <div id="advise-error"  class="alert alert-danger col-md-12 col-xs-12" style="display: none"></div>
+        <div class="row">
+            <div id="login-section" class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4 col-xs-8 col-md-offset-4 col-xs-offset-2">
+                            <img src="assets/img/user.png" alt="" class="img-circle img-thumbnail" id="loginIcon">
+                        </div>
+                        <div id="advise-success" class="alert alert-success col-md-12 col-xs-12" style="display: none"></div>
+                        <div id="advise-error" class="alert alert-danger col-md-12 col-xs-12" style="display: none"></div>
 
-                           <form action="" id="loginForm" method="post">
-                               <div class="form-group form-group-lg signin-form-group">
-                                   <input class="form-control" placeholder="Login" name="login" id="login" value=''>
-                               </div>
+                        <form action="" id="loginForm" method="post">
+                            <div class="form-group form-group-lg signin-form-group">
+                                <input class="form-control" placeholder="Login" name="login" id="login" value=''>
+                            </div>
 
-                               <div class="form-group form-group-lg password-form-group signin-form-group">
-                                   <input type="password" class="form-control" placeholder="Password" name="password" id="password" value="">
-                               </div>
+                            <div class="form-group form-group-lg password-form-group signin-form-group">
+                                <input type="password" class="form-control" placeholder="Password" name="password" id="password" value="">
+                            </div>
 
-                               <button type="button" class="btn btn-lg btn-primary" id="sign-in-button">Sign in</button>
-                               <button type="reset"class="btn btn-lg btn-danger" id="sign-out-button">Sign out</button>
-                           </form>
-                   </div>
-               </div>
-           </div>
-       </div>
+                            <button type="button" class="btn btn-lg btn-primary" id="sign-in-button">Sign in</button>
+                            <button type="reset" class="btn btn-lg btn-danger" id="sign-out-button">Sign out</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
+
 </html>

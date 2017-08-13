@@ -1,32 +1,46 @@
 #body {
     background-image: linear-gradient(to bottom, #61C8E1, #61C8E1 30%, white 0%, white);
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     visibility: hidden;
 }
 
-#login-section
-{
+#login-section {
     margin-top: 7%;
     background-color: white;
-    box-shadow: 3px 3px 3px  #888888;
-
+    box-shadow: 3px 3px 3px #888888;
 }
 
-#sign-in-button, #sign-out-button
-{
+#sign-in-button,
+#sign-out-button {
     width: 100%;
     border-radius: 0% !important;
-
 }
 
-#sign-in-button
-{
+#sign-in-button {
     background-color: #5E97C3;
     border-color: #5E97C3;
 }
 
-.form-control
-{
-    height: auto !important;
+#password,
+#login {
+    border: none;
+    border-bottom: 0.5px solid lightgray;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 1px;
+}
+
+#password:focus,
+#login:focus {
+    border-bottom: 0.5px solid #304FFE;
+}
+
+.has-error>.form-control {
+    border-bottom: 0.5px solid #F44336 !important;
+}
+
+#loginIcon {
+    margin-top: 5%;
 }
